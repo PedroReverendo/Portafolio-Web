@@ -47,6 +47,45 @@
     }
   }
 /* =============== MOBILE M 375 =============== */
+@media screen and (max-width: 375px) {
+      html{
+        width: 100vh;
+    }
+    .nav__name {
+      display: none;
+    }
+    .div__img{
+        /* visibility: hidden; */
+
+        transform:rotate(180deg);
+        -ms-transform:rotate(180deg); /* IE 9 */
+        -webkit-transform:rotate(270deg); /* Opera, Chrome, and Safari */
+
+        padding-block-start: 0rem;
+        padding-block-end: 0rem;
+
+        flex-direction: column;
+    }
+    .background_image{
+        width: 70%;
+        
+        position: relative;
+    }
+    .text_home{
+        padding-inline-start: 0rem;
+        align-items: center;
+    }
+    .title-home{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .text__hello{
+        padding-block-end: 0.5rem;
+    }
+    .section_about_height {
+        height: 270vh;
+    }
+}
 /* =============== MOBILE L 425 =============== */
 @media screen and (min-width: 576px) {
     .nav__list {
