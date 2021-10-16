@@ -131,6 +131,7 @@ img{
 .nav__list, 
 .nav__link {
   display: flex;
+  align-items: center;
 }
 .nav__link {
   font-style: normal;
@@ -223,6 +224,9 @@ img{
   text-align: center;
 }
 /*===== EXPERIENCE =====*/
+.section__experience{
+  font-family: Montserrat;
+}
 .bd-grid{
   max-width: 1024px;
   display: grid;
@@ -242,8 +246,11 @@ img{
 
 /* ===== SKILLS =====*/
 .skills__container{
-  row-gap: 2rem;
+  row-gap: 5rem;
   text-align: center;
+}
+.alignment{
+  padding-block-start: 2rem;
 }
 .skills__data{
   display: flex;
@@ -251,7 +258,7 @@ img{
   align-items: center;
   position: relative;
   padding: .5rem 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   border-radius: .5rem;
   background-color: #4F4F4F;
 
@@ -262,8 +269,12 @@ img{
   color: #C0FF3C;
 }
 .skills__names{
+  font-family: 'Montserrat';
   display: flex;
   align-items: center;
+}
+.skills__subtitle{
+  padding-block-end: 1.5rem;
 }
 .skills__bar{
   position: absolute;
@@ -299,6 +310,10 @@ img{
   display: flex;
   align-items: center;
   flex-direction: row;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 200%;
 }
 
 .p__text{
