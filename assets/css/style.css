@@ -170,7 +170,7 @@ img{
 
 /*===== HOME =====*/
 .div__img{
-  padding-block-start: 5rem;
+  padding-block-start: 3rem;
   padding-inline-end: 9rem;
   padding-block-end: 1.8rem;
 
@@ -179,11 +179,11 @@ img{
 }
 .background_image{
   position: absolute;
-  width: 30%;
-  height: 90%;
+  width: 35%;
+  height: 100%;
   
   border-radius: 150px;
-  transform: matrix(1, -0.01, -0.01, -1, 0, 0);
+  /* transform: matrix(1, -0.01, -0.01, -1, 0, 0); */
 }
 
 .text__hello{
