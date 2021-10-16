@@ -217,6 +217,8 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: all .3s ease-in-out;
 }
 
 .father{
@@ -232,6 +234,7 @@ img{
   line-height: 143.9%;
 
   color: #000;
+  transition: all .3s ease-in-out;
 }
 .down__arrow{
   color: #FFF;
@@ -239,6 +242,8 @@ img{
 
   padding-block-start: 2rem;
   padding-inline-start: 5.3rem;
+
+  transition: all .3s ease-in-out;
 }
 .boton__home:hover{
   background-color: #181818;
@@ -247,6 +252,9 @@ img{
   color: #C0FF3C;
 }
 
+.down__arrow:hover{
+  color: #C0FF3C;
+}
 /*===== ABOUT =====*/
 .section__subtitle{
   font-family: Montserrat;
