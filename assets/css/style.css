@@ -181,17 +181,9 @@ img{
   position: absolute;
   width: 30%;
   height: 90%;
-   
-}
-
-.text_home{
-  display: flex;
-  color: #FFF;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-inline-start:5rem;
-
-  z-index: 1;
+  
+  border-radius: 150px;
+  transform: matrix(1, -0.01, -0.01, -1, 0, 0);
 }
 
 .text__hello{
@@ -206,9 +198,53 @@ img{
   line-height: 90px;
 }
 
-.text-CV{
+.text_home{
+  display: flex;
   color: #FFF;
-  cursor: pointer;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-inline-start:5rem;
+
+  z-index: 1;
+}
+
+.boton__home{
+  background-color: #FFF;
+
+  width: 266px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.father{
+  padding-block-start: 3rem; 
+  padding-inline-start: 5rem;
+}
+
+.text__boton_home{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 143.9%;
+
+  color: #000;
+}
+.down__arrow{
+  color: #FFF;
+  font-size: 5rem;
+
+  padding-block-start: 2rem;
+  padding-inline-start: 5.3rem;
+}
+.boton__home:hover{
+  background-color: #181818;
+}
+.text__boton_home:hover{
+  color: #C0FF3C;
 }
 
 /*===== ABOUT =====*/
