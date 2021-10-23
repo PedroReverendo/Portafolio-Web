@@ -50,22 +50,6 @@
      
 
 /*==================== SWIPER CAROUSEL ====================*/
-// let swiper = new Swiper(".discover__container", {
-//     effect: "coverflow",
-//     grabCursor: true,
-//     centeredSlides: true,
-//     slidesPerView: "auto",
-//     loop: true,
-//     spaceBetween: 32,
-//     coverflowEffect: {
-//         rotate: 0,
-//     },
-//     navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//     },
-// })
-
 
 var swiper = new Swiper(".discover__container", {
     slidesPerView: 3,
@@ -86,25 +70,8 @@ var swiper = new Swiper(".discover__container", {
     },
   });
 
-// var swiper = new Swiper(".discover__container", {
-//     spaceBetween: 3,
-//     centeredSlides: false,
-//     autoplay: {
-//       delay: 2500,
-//       disableOnInteraction: false,
-//     },
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-// navigation: {
-//   nextEl: ".swiper-button-next",
-//   prevEl: ".swiper-button-prev",
-// }
-//   });
 
-
-     /*===== MIXITUP FILTER PORTFOLIO =====*/ 
+    /*===== MIXITUP FILTER PORTFOLIO =====*/ 
 const mixer = mixitup('.portfolio__container', {
     selectors: {
         target: '.portfolio__content'
