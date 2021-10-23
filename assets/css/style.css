@@ -49,7 +49,10 @@ img{
   padding: 4.4rem 0 2rem;
 }
 .section__experience{
-  padding-block-start: 15rem;
+  padding-block-start: 10rem;
+  font-family: Montserrat;
+
+  padding-block-end: 10rem;
 }
 
 .section__title {
@@ -63,6 +66,7 @@ img{
   display: block;
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 3rem;
 }
 
 .section-title, .section-subtitle{
@@ -70,12 +74,13 @@ img{
 }
 
 .section__height {
+  height: 360vh;
+}
+
+.section_home_height {
   height: 100vh;
 }
 
-.section_about_height {
-  height: 150vh;
-}
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
@@ -106,7 +111,6 @@ img{
 .nav__img {
   border-radius: 50%;
 
-  font-family: Raleway;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.085em;
@@ -242,7 +246,7 @@ img{
 
   padding-block-start: 2rem;
   padding-inline-start: 5.3rem;
-
+  
   transition: all .3s ease-in-out;
 }
 .boton__home:hover{
@@ -267,10 +271,45 @@ img{
   align-items: center;
   text-align: center;
 }
-/*===== EXPERIENCE =====*/
-.section__experience{
-  font-family: Montserrat;
+.father__about{
+  padding-block-start: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.boton__about{
+  background-color: #FFF;
+
+  width: 440px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all .3s ease-in-out;
+}
+.text__boton_about{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.9%;
+
+  color: #202020;
+  transition: all .3s ease-in-out;
+}
+
+.boton__about:hover{
+  background-color: #181818;
+}
+
+.text__boton_about:hover{
+  color: #C0FF3C;
+}
+
+/*===== EXPERIENCE =====*/
 .bd-grid{
   max-width: 1024px;
   display: grid;
@@ -286,10 +325,9 @@ img{
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
-
-
 /* ===== SKILLS =====*/
 .skills__container{
+  grid-template-columns: repeat(1,1fr);
   row-gap: 5rem;
   text-align: center;
 }
@@ -309,11 +347,17 @@ img{
   width: 30rem;
 }
 .skills__icon{
+  padding-inline-end: 1rem;
+  font-size: 2rem;
+  color: #C0FF3C;
+}
+.skills_last_icon{
+  padding-inline-end: .2rem;
   font-size: 2rem;
   color: #C0FF3C;
 }
 .skills__names{
-  font-family: 'Montserrat';
+  font-family: Montserrat;
   display: flex;
   align-items: center;
 }
@@ -348,8 +392,8 @@ img{
   background-color: #C0FF3C;
   color: #181818;
 
-  width: 50.7vw;
-  height: 25rem;
+  width: auto;
+  height: 30rem;
 
   display: flex;
   align-items: center;
@@ -357,21 +401,258 @@ img{
 
   font-weight: normal;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 170%;
 }
 
 .p__text{
-  padding-inline: 3rem;
+  padding-inline:1.5rem;
+  padding-block: 2rem;
   font-size: 20px;
 }
+.coffe__container {
+  grid-template-columns: repeat(1,1fr);
+  row-gap: 5rem;
+}
+.father__givecoffe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-block-end: 15rem;
+}
+
+.givecoffe{
+  padding-block-start: 2rem;
+
+  width: 1075px;
+  height: 298px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 80px;
+}
+.left__side{
+  padding-block-start: 2rem;
+
+  color: #181818;
+
+  line-height: 350%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left_coffe{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.subtext_coffe{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  transition: all .3s ease-in-out;
+
+  color: #181818;
+}
+
+.link__gmail:hover{
+  color: #1300bd;
+
+  text-decoration-line: underline;
+}
+
+.rigth__side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img__QR{
+  max-width: 40%;
+  padding-block-end: 1rem;
+}
+.text__QR{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #C0FF3C;
+  color: #000000;
+
+  width: 250px;
+  height: 45px;
+}
+
+
+.header__carousel{
+  color: #C0FF3C;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-block-end: 2rem;
+}
+.subtext_header_carousel{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFF;
+
+  padding-block-start: .5rem;
+}
+.space-carousel{
+  padding-block-end: 7rem;
+}
+.discover__container{
+  cursor: pointer;
+}
+.container{
+  overflow: hidden;
+}
+.discover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discover__card {
+  position: relative;
+  width: 200px;
+}
+
+.discover__data {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1rem;
+}
+
+.discover__title, 
+.discover__description {
+  color: #FFF;
+}
+
+.discover__title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.discover__description {
+  display: block;
+  font-size: 1rem;
+}
+
+.discover__img {
+  transition: .3s;
+}
+
+.discover__img:hover {
+  transform: scale(1.1);
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: none;
+} 
+
+.swiper-pagination {
+  font-family: Montserrat;
+
+  color: rgb(255, 255, 255);
+  background-color: rgba(61, 61, 61, 0.418);
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #000;
+}
+
+/*===== PORTFOLIO =====*/
+
+.section_projects_title{
+  font-size: 2.25rem;
+  color: #C0FF3C;
+  text-align: center;
+}
+.section_projects_subtitle{
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.bd-container{
+  max-width: 1024px;
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bd-grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.portfolio__nav{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.portfolio__item{
+  margin: 3rem;
+  cursor: pointer;
+}
+
+.portfolio__content{
+  background-color: #FFF;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(174, 190, 205, .3);
+}
+
+.portfolio__img{
+  width: 100%;
+  transition: .4s;
+}
+
+.portfolio__data{
+  padding: 1.5rem;
+}
+
+.portfolio__subtitle{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #181818;
+}
+
+.portfolio__title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #000
+}
+
+.portfolio__content:hover{
+  box-shadow: 0 6px 8px rgba(174, 190, 205, .4);
+}
+
+.portfolio__content:hover .portfolio__img{
+  transform: scale(1.02);
+}
+/* Active menu portfolio*/
+.active-portfolio{
+  color: var(--first-color-dark);
+  font-weight: var(--font-semi-bold);
+}
+
 
 /*===== SERVICES =====*/
 
-
 /*===== PROJECT IN MIND =====*/
-
-
-/*===== PORTFOLIO =====*/
 
 
 /* Active menu portfolio*/

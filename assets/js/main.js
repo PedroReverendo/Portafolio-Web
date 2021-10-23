@@ -48,5 +48,79 @@
      }
      window.addEventListener('scroll', scrollHeader)
      
-     // /*===== SWIPER CAROUSEL =====*/ 
-     
+
+/*==================== SWIPER CAROUSEL ====================*/
+// let swiper = new Swiper(".discover__container", {
+//     effect: "coverflow",
+//     grabCursor: true,
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     loop: true,
+//     spaceBetween: 32,
+//     coverflowEffect: {
+//         rotate: 0,
+//     },
+//     navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//     },
+// })
+
+
+var swiper = new Swiper(".discover__container", {
+    slidesPerView: 3,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+    },
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+// var swiper = new Swiper(".discover__container", {
+//     spaceBetween: 3,
+//     centeredSlides: false,
+//     autoplay: {
+//       delay: 2500,
+//       disableOnInteraction: false,
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+// navigation: {
+//   nextEl: ".swiper-button-next",
+//   prevEl: ".swiper-button-prev",
+// }
+//   });
+
+
+     /*===== MIXITUP FILTER PORTFOLIO =====*/ 
+const mixer = mixitup('.portfolio__container', {
+    selectors: {
+        target: '.portfolio__content'
+    },
+    animation: {
+        duration: 400
+    }
+});
+
+/* Link active portfolio */ 
+const linkPortfolio = document.querySelectorAll('.portfolio__item');
+
+function activePortfolio() {
+    if (linkPortfolio) {
+        linkPortfolio.forEach(L => L.classList.remove('active-portfolio'));
+        this.classList.add('active-portfolio');
+    }
+}
+linkPortfolio.forEach(L => L.addEventListener('click', activePortfolio));
