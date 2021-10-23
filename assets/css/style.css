@@ -645,8 +645,7 @@ img{
 }
 /* Active menu portfolio*/
 .active-portfolio{
-  color: var(--first-color-dark);
-  font-weight: var(--font-semi-bold);
+  color: #C0FF3C;
 }
 
 
