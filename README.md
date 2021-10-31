@@ -18,4 +18,10 @@ Programado en (1440px) tamaño de mi PC
 
 NvBar responsive
 
-/*=====  =====*/
+/*===== ENTREGA 2 =====*/
+
+agregue un carrusel donde se encuentran mis certificados con la opcion de descargarlos al hacer click.
+
+tambien agregue una seccion de proyectos donde se pueden filtrar los proyectos por trabajo= UX/UI, Desarrollo web
+
+cree una "burbuja" para pedir donaciones.
