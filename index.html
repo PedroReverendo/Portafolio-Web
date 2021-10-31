@@ -41,41 +41,42 @@
                     <div class="nav__menu" id="nav-menu">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#about" id="nav__link__Services" class="nav__link active-link">
+                                <a href="#home" id="nav__link__Services" class="nav__link active-link">
                                     <i class='bx bx-briefcase-alt nav__icon'></i>
-                                    <span class="nav__name">About</span>
+                                    <span class="nav__name">Home</span>
                                 </a>
                             </li>
                             
                             <li class="nav__item">
-                                <a href="#projects" id="nav__link__projects" class="nav__link">
+                                <a href="#about" id="nav__link__projects" class="nav__link">
                                     <i class="uil uil-scenery nav__icon"></i>
+                                    <span class="nav__name">About</span>
+                                </a>
+                            </li>
+    
+                            <li class="nav__item">
+                                <a href="#projects" id="nav__link__Home" class="nav__link">
+                                    <i class='bx bx-book-alt nav__icon'></i>
                                     <span class="nav__name">Projects</span>
                                 </a>
                             </li>
     
                             <li class="nav__item">
-                                <a href="#services" id="nav__link__Home" class="nav__link">
-                                    <i class='bx bx-book-alt nav__icon'></i>
-                                    <span class="nav__name">Services</span>
-                                </a>
-                            </li>
-    
-                            <li class="nav__item">
-                                <a href="#contactme" id="nav__link__About" class="nav__link">
+                                <a href="./contact.html" id="nav__link__About" class="nav__link">
                                     <i class='bx bx-user nav__icon'></i>
                                     <span class="nav__name">Contact Me</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
+                    <img class="moon" src="./assets/img/PicsArt_10-30-07.09.54.png" alt="">
                     <p class="nav__img">Pedro Reverendo</p>
                     <!-- <img src="./assets/img/perfil.png" alt="" class="nav__img"> -->
                 </nav>
             </header>
     
             <main>
-                <div class="div__img">
+                <div class="div__img" id="home">
                     <img class="background_image" src="./assets/img/descarga" alt="">
                 </div>
                 <!--=============== HOME ===============-->
@@ -179,9 +180,10 @@
                 <div class="givecoffe coffe__container bd-grid">
                     <div class="left__side">
                         <h1 class="text_coffe">BUY ME A COFEE ☕</h1>
-                        <p class="subtext_coffe">For donations</p>
+                        <p class="subtext_coffe">For donations</p>s
                         <a href="#">
                             <p class="subtext_coffe link__gmail">pedroreverendo04@gmail.com</p>
+                            <img src="./assets/img/icons__contact/icons8-gmail.svg" alt="">
                         </a>
                     </div>
                     <div class="rigth__side">
@@ -202,7 +204,7 @@
                 <div class="swiper-wrapper">
                     <!--==================== DISCOVER 1 ====================-->
                     <div class="discover__card swiper-slide">
-                    <a href="./assets/img/CERTIFICADOS/basico.js-convertido.pdf">
+                    <a href="./assets/img/CERTIFICADOS/basico.js-convertido.pdf" target="_blank">
                         <img src="assets/img/cursos aprobados/js/basico.js.png" alt="" class="discover__img">
                     </a>
                     </div>
@@ -244,8 +246,7 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
-            </section>
-
+        </section>
 
 
 
@@ -357,16 +358,25 @@
                         </div>
                 </div>
                 </section>
-                
-                <!--=============== SERVICES ===============-->
-                <section class="container section section__height" id="services">
-                    <h2 class="section__title">Services</h2>
-                </section>
     
-                <!--=============== CONTACTME ===============-->
-                <section class="container section section__height" id="contactme">
-                    <h2 class="section__title">Contact Me</h2>
-                </section>
+                <!--=============== FOOTER ===============-->
+                <footer class="footer">
+                    <div>
+                        <div class="Footer__text"><p>Pedro Reverendo</p></div>
+                        <div class="footer__boton">
+                            <a href="./contact.html"><p class="footer__boton__text">Contact Me</p></a>
+                        </div>
+                        <div class="footer__icons">
+                            <img src="./assets/img/icons__contact/icons8-whatsapp.svg" alt="">
+                            <img src="./assets/img/icons__contact/icons8-instagram.svg" alt="">
+                            <img src="./assets/img/icons__contact/icons8-linkedin.svg" alt="">
+                            <img src="./assets/img/icons__contact/icons8-gmail.svg" alt="">
+                        </div>
+                    </div>
+
+                    <h3 class="footer__copy">© 2021 copyrigth all rigth reserved</h3>
+
+                </footer>
             </main>
 </body>
 </html>

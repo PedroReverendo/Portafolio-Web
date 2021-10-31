@@ -73,9 +73,9 @@ img{
   text-align: center;
 }
 
-.section__height {
+/* .section__height {
   height: 360vh;
-}
+} */
 
 .section_home_height {
   height: 100vh;
@@ -115,6 +115,14 @@ img{
   line-height: 28px;
   letter-spacing: 0.085em;
 }
+
+.moon{
+  width: 30.54px;
+  height: 30.54px;
+
+  margin-left: 10rem;
+}
+
 /* RESPONSIVE NAVBAR */
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -664,3 +672,44 @@ img{
 
 
 /*===== FOOTER =====*/
+.footer{
+  background-color: #FFF;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Footer__text{
+  padding-block: .8rem;
+
+
+  color: #000;
+}
+.footer__boton{
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.footer__boton__text{
+  padding: .4rem;
+
+  color: #C0FF3C;
+}
+
+.footer__icons{
+  column-gap: 3rem;
+
+  padding-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copy{
+  padding-top: 2rem;
+
+  color: #000;
+
+}

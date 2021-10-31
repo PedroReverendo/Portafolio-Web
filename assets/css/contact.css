@@ -1,0 +1,101 @@
+.moon{
+    width: 30.54px;
+    height: 30.54px;
+
+    margin-left: 10rem;
+}
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: #C0FF3C;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact__container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10rem;
+
+    margin-block-start: 5rem;
+}
+
+.illustration__left{
+    width: 70vh;
+    height: 487px;
+}
+
+.info__rigth{
+    grid-template-columns: repeat(1,1fr);
+    display: grid;
+    gap: 3rem;
+
+    margin-block-start: 2rem;
+}
+
+.insta__contact{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    column-gap: 8rem;
+
+    width: 330px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.wsp__contact{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    column-gap: 8rem;
+
+    width: 330px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.link__contact{    
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    column-gap: 8rem;
+
+    
+    width: 330px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.gmail__contact{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    column-gap: 8rem;
+
+    
+    width: 330px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.text__contact{
+    height: 50px;
+    margin-left: .6rem;
+    font-size: 24px;
+
+    display: flex;
+    color: #000000;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
