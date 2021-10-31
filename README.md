@@ -25,3 +25,13 @@ agregue un carrusel donde se encuentran mis certificados con la opcion de descar
 tambien agregue una seccion de proyectos donde se pueden filtrar los proyectos por trabajo= UX/UI, Desarrollo web
 
 cree una "burbuja" para pedir donaciones.
+
+
+
+/*===== ENTREGA 3 =====*/
+
+pagina de contacto con otro HTML utilizando grid y una ilustraccion.
+
+creaccion de footer colocando mis redes y agregando un CTA hacia la pagina de contacto.
+
+algonos media query...
