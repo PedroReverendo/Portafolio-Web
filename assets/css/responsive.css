@@ -1,38 +1,49 @@
 /* =============== MOBILE S 320 =============== */
 @media screen and (max-width: 320px) {
     html{
-        width: 100vh;
+        overflow-x: hidden;
+    }
+    body{
+      overflow-x: hidden;
     }
     .nav__name {
       display: none;
     }
+    .moon{
+      margin-left: 0;
+      /* padding-inline-end: .5rem; */
+    }
     .div__img{
-        /* visibility: hidden; */
+        /* visibility: hidden;
 
         transform:rotate(180deg);
-        -ms-transform:rotate(180deg); /* IE 9 */
-        -webkit-transform:rotate(270deg); /* Opera, Chrome, and Safari */
+        -ms-transform:rotate(180deg);  IE 9 
+        -webkit-transform:rotate(270deg);  Opera, Chrome, and Safari 
 
         padding-block-start: 0rem;
         padding-block-end: 0rem;
 
-        flex-direction: column;
+        flex-direction: column; */
+        display: none;
     }
     .background_image{
-        width: 70%;
+        width: 100%;
         
         position: relative;
     }
     .text_home{
         padding-inline-start: 0rem;
+        padding-block-start: 3rem;
         align-items: center;
     }
     .title-home{
-        font-size: 25px;
+        font-size: 20px;
         line-height: 50px;
     }
     .text__hello{
-        padding-block-end: 0.5rem;
+      font-size: 70px;
+
+      padding-block-end: 3rem;
     }
     .section_about_height {
         height: 270vh;
@@ -43,48 +54,118 @@
     }
 
     .div__color{
-        width: 240vw; 
+        width: auto; 
+        height: auto;
     }
-  }
+    .father{
+      padding-inline-start: 0;
+      scroll-padding-block-start: 3rem;
+    }
+
+    .down__arrow{
+      padding: 0;
+      padding-block-start: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .text__boton_about {
+      font-size: 12px;
+    }
+
+    .p__text {
+      font-size: 15px;
+    }
+    .givecoffe{
+      padding-block: 2rem;
+    }
+  
+    /*.rigth__side{
+       padding-block-end: 3rem; 
+    }
+    */
+}
 /* =============== MOBILE M 375 =============== */
-@media screen and (max-width: 370px) {
-      html{
-        width: 100vh;
-    }
-    .nav__name {
-      display: none;
-    }
+@media screen and (max-width: 380px) {
+  html{
+    overflow-x: hidden;
+  }
+  body{
+   overflow-x: hidden;
+  }
+  .nav__name {
+    display: none;
+  }
+  .moon{
+    margin-left: 0;
+    /* padding-inline-end: .5rem; */
+  }
     .div__img{
-        /* visibility: hidden; */
+      /* visibility: hidden;
 
-        transform:rotate(180deg);
-        -ms-transform:rotate(180deg); /* IE 9 */
-        -webkit-transform:rotate(270deg); /* Opera, Chrome, and Safari */
+      transform:rotate(180deg);
+      -ms-transform:rotate(180deg);  IE 9 
+      -webkit-transform:rotate(270deg);  Opera, Chrome, and Safari 
 
-        padding-block-start: 0rem;
-        padding-block-end: 0rem;
+      padding-block-start: 0rem;
+      padding-block-end: 0rem;
 
-        flex-direction: column;
-    }
+      flex-direction: column; */
+      display: none;
+  }
     .background_image{
         width: 70%;
         
         position: relative;
     }
     .text_home{
-        padding-inline-start: 0rem;
-        align-items: center;
-    }
-    .title-home{
-        font-size: 25px;
-        line-height: 50px;
-    }
-    .text__hello{
-        padding-block-end: 0.5rem;
-    }
-    .section_about_height {
-        height: 270vh;
-    }
+      padding-inline-start: 0rem;
+      padding-block-start: 3rem;
+      align-items: center;
+  }
+  .title-home{
+      font-size: 20px;
+      line-height: 50px;
+  }
+  .text__hello{
+    font-size: 70px;
+
+    padding-block-end: 3rem;
+  }
+  .section_about_height {
+      height: 270vh;
+  }
+  .skills__data{
+    width: 100%;
+}
+  .div__color{
+    width: auto; 
+    height: auto;
+}
+.p__text {
+  font-size: 20px;
+}
+.father{
+  padding-inline-start: 0;
+  scroll-padding-block-start: 3rem;
+}
+
+.down__arrow{
+  padding: 0;
+  padding-block-start: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .text__boton_about {
+    font-size: 15px;
+  }
+
+.givecoffe{
+  padding-block: 2rem;
+}
 }
 /* =============== MOBILE L 425 =============== */
 @media screen and (min-width: 576px) {
