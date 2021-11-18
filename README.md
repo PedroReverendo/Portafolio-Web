@@ -35,3 +35,15 @@ pagina de contacto con otro HTML utilizando grid y una ilustraccion.
 creaccion de footer colocando mis redes y agregando un CTA hacia la pagina de contacto.
 
 algonos media query...
+
+
+/*===== ENTREGA 4 =====*/
+
+pagina responsive
+
+
+/*===== ENTREGA 5 =====*/
+
+finalizacion de la mayoria de apis
+
+100% responsive.
