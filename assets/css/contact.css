@@ -1,3 +1,10 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
 .moon{
     width: 30.54px;
     height: 30.54px;
@@ -38,55 +45,17 @@
     margin-block-start: 2rem;
 }
 
-.insta__contact{
-    grid-template-columns: repeat(2,1fr);
-    display: grid;
-    column-gap: 8rem;
-
-    width: 330px;
-    height: 50px;
-
+.contact{
+    padding-inline: 1rem;
+    display: flex;
     background: #FFFFFF;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     border-radius: 5px;
 }
 
-.wsp__contact{
-    grid-template-columns: repeat(2,1fr);
-    display: grid;
-    column-gap: 8rem;
-
-    width: 330px;
-    height: 50px;
-
-    background: #FFFFFF;
-    border-radius: 5px;
-}
-
-.link__contact{    
-    grid-template-columns: repeat(2,1fr);
-    display: grid;
-    column-gap: 8rem;
-
-    
-    width: 330px;
-    height: 50px;
-
-    background: #FFFFFF;
-    border-radius: 5px;
-}
-
-.gmail__contact{
-    grid-template-columns: repeat(2,1fr);
-    display: grid;
-    column-gap: 8rem;
-
-    
-    width: 330px;
-    height: 50px;
-
-    background: #FFFFFF;
-    border-radius: 5px;
-}
 
 .text__contact{
     height: 50px;

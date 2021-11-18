@@ -73,10 +73,6 @@ img{
   text-align: center;
 }
 
-/* .section__height {
-  height: 360vh;
-} */
-
 .section_home_height {
   height: 100vh;
 }
@@ -89,6 +85,29 @@ img{
 }
 
 /*=============== HEADER ===============*/
+
+
+/*===== DARK/LIGTH THEME =====*/
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+  background-color: #FFF6F6;
+}
+
+h1.dark-theme{
+  color: #000000;
+}
+
+/*========== Button Dark/Light ==========*/
+.change-theme{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.img__weather{
+  width: 40px;
+
+
+}
 .header {
   position: fixed;
   top: 0;
@@ -165,6 +184,9 @@ img{
   font-size:.65rem;
 }
 
+.space{
+  margin-inline-end: 5rem;
+}
 .nav__icon {
   font-size: 1.5rem;
 }
@@ -174,7 +196,9 @@ img{
   position: relative;
   color: #C0FF3C;
 }
-
+.loader{
+  color: #000000;
+}
 /* Change background header */
 .scroll-header{
   background-color: #202020;
@@ -195,7 +219,6 @@ img{
   height: 100%;
   
   border-radius: 150px;
-  /* transform: matrix(1, -0.01, -0.01, -1, 0, 0); */
 }
 
 .text__hello{
@@ -432,9 +455,6 @@ img{
 .givecoffe{
   padding-block-start: 2rem;
 
-  /* width: auto;
-  height: auto; */
-
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 80px;
@@ -657,23 +677,9 @@ img{
 }
 
 
-/*===== SERVICES =====*/
-
-/*===== PROJECT IN MIND =====*/
-
-
-/* Active menu portfolio*/
-
-
-/*===== TESTIMONIAL =====*/
-
-
-/*===== CONTACTME =====*/
-
-
 /*===== FOOTER =====*/
 .footer{
-  background-color: #FFF;
+  background-color: #C0FF3C;
 
   display: flex;
   flex-direction: column;
@@ -713,3 +719,39 @@ img{
   color: #000;
 
 }
+
+
+/*===== API CLIMA =====*/
+.hambuerguesa{
+  position: relative;
+  height: .8rem;
+  left: 130px;
+}
+.nav__toggle{
+  cursor: pointer;
+}
+
+
+.uil-bars:before {
+  color: #ffffff;
+  position: relative;
+  /* left: 180px; */
+}
+
+  .nav_menu{
+    position: fixed;
+    top: 3.1rem;
+    right: -99%;
+    box-shadow:0px 4px 5px 2px rgb(0 0 0 / 25%);
+    border-radius:  0 0 .6rem .6rem;
+    transition: .5s; 
+
+  }
+
+
+/* show menu */
+.show-menu{
+  right: 0;
+  background-color: #FFFFFF;
+}
+

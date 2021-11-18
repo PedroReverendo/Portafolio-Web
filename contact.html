@@ -12,46 +12,96 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./assets/img/favicon_io/site.webmanifest">
 
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> 
+
+
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/clima.css">
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js" defer></script>
+    <script src="./assets/js/clima.js" await></script>
+    
 
     <title>Pedro Reverendo</title>
 </head>
-<body>
+<body onload="onLoad()">
      <!--=============== HEADER ===============-->
-     <header class="header" id="header">
-        <nav class="nav container">
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="./index.html" id="nav__link__Services" class="nav__link active-link">
-                            <i class='bx bx-briefcase-alt nav__icon'></i>
-                            <span class="nav__name">Home</span>
-                        </a>
-                    </li>
-                    
-                    <li class="nav__item">
-                        <a href="./index.html#about" id="nav__link__projects" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i>
-                            <span class="nav__name">About</span>
-                        </a>
-                    </li>
+            <header class="header" id="header">
+                <nav class="nav container">
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="">
+                                <a href="./index.html" id="nav__link__Services" class="nav__link active-link">
+                                    <i class='bx bx-briefcase-alt nav__icon'></i>
+                                    <span class="nav__name">Home</span>
+                                </a>
+                            </li>
+                            
+                            <li class="">
+                                <a href="./index.html#about" id="nav__link__projects" class="nav__link">
+                                    <i class="uil uil-scenery nav__icon"></i>
+                                    <span class="nav__name">About</span>
+                                </a>
+                            </li>
+    
+                            <li class="space">
+                                <a href="./index.html#projects" id="nav__link__Home" class="nav__link">
+                                    <i class='bx bx-book-alt nav__icon'></i>
+                                    <span class="nav__name">Projects</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                    <p class="nav__img">Pedro Reverendo</p>
+                    <!-- <img src="./assets/img/perfil.png" alt="" class="nav__img"> -->
 
-                    <li class="nav__item">
-                        <a href="./index.html#projects" id="nav__link__Home" class="nav__link">
-                            <i class='bx bx-book-alt nav__icon'></i>
-                            <span class="nav__name">Projects</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <img class="moon" src="./assets/img/PicsArt_10-30-07.09.54.png" alt="">
-            <p class="nav__img">Pedro Reverendo</p>
-            <!-- <img src="./assets/img/perfil.png" alt="" class="nav__img"> -->
-        </nav>
-    </header>
+                    <div class="nav_menu" id="nav--menu">
+
+
+                        <section>
+                            <div id="container" class="contaier  weather__container">
+                                <div class="block left__weather">
+                                    <div id="location"></div>
+                                    <div id="date"></div>
+                                    <div id="description"></div>
+                                </div>
+                                <div class="block rigth__weather">
+                                    <div class="information-container">
+                                        Temperature
+                                        <div class="information" id="temperature"></div>
+                                    </div>
+                                    <div class="information-container">
+                                        Humidity
+                                        <div class="information" id="humidity"></div>
+                                    </div>
+                                    <div class="information-container">
+                                        feels like
+                                        <div class="information" id="feelsLike"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+        
+                    <div class="nav__btns"  id="nav-close">
+                        <div class="nav__toggle img__weather" id="nav-toggle">
+                            <i class=""><img src="./assets/img/icons8-weather.svg" alt=""></i>
+                        </div>
+                    </div>
+
+                </nav>
+            </header>
     <main>
         <section class="section contact-me"> 
             <h1>Contact Me</h1>
@@ -61,25 +111,25 @@
                     <img src="./assets/img/Sent Message-cuate.svg" alt="">
                 </div>
                 <div class="info__rigth">
-                    <div class="insta__contact">
+                    <div class="contact">
                         <div><p class="text__contact">Instagram</p></div>
                         <div>
                             <img src="./assets/img/icons__contact/icons8-instagram.svg" alt="">
                         </div>
                     </div>
-                    <div class="wsp__contact">
+                    <div class="contact">
                         <div><p class="text__contact">Whatsapp</p></div>
                         <div>
                             <img src="./assets/img/icons__contact/icons8-whatsapp.svg" alt="">
                         </div>
                     </div>
-                    <div class="link__contact">
+                    <div class="contact">
                         <div><p class="text__contact">LinkedIn</p></div>
                         <div>
                             <img src="./assets/img/icons__contact/icons8-linkedin.svg" alt="">
                         </div>
                     </div>
-                    <div class="gmail__contact">
+                    <div class="contact">
                         <div><p class="text__contact">G-mail</p></div>
                         <div>
                             <img src="./assets/img/icons__contact/icons8-gmail.svg" alt="">
