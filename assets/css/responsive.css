@@ -8,9 +8,9 @@
     overflow-x: hidden;
   }
 
-  .nav__name {
+  /* .nav__name {
     display: none;
-  }
+  } */
 
   .moon{
     margin-left: 0;
@@ -22,7 +22,7 @@
 
   .nav__list {
     justify-content: center;
-    column-gap: 4rem;
+    column-gap: 2rem;
   }
 
   .space {
@@ -131,9 +131,9 @@
    overflow-x: hidden;
   }
 
-  .nav__name {
+  /* .nav__name {
     display: none;
-  }
+  } */
 
   .moon{
     margin-left: 0;
@@ -143,6 +143,10 @@
     display: none;
   }
 
+  .space {
+    margin-inline-end: 0rem;
+  }
+  
   .background_image{
     width: 70%;
     position: relative;
@@ -237,8 +241,8 @@
    overflow-x: hidden;
   }
 
-  .nav__name {
-    display: none;
+  .space {
+    margin-inline-end: 0rem;
   }
 
   .moon{
