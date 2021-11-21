@@ -757,9 +757,9 @@ h1.dark-theme{
 
 .footer__copy{
   padding-top: 2rem;
-
+  padding-bottom: 1rem;
+  
   color: #000;
-
 }
 
 /*===== API WEATHER =====*/
@@ -793,4 +793,16 @@ h1.dark-theme{
 .show-menu{
   right: 0;
   background-color: #FFFFFF;
+}
+
+.div__end-page{
+  width: 100%;
+  background-color: #F3F3F3;
+}
+
+.end__page{
+  display: grid;
+  color: #333333;
+  text-align: center;
+  padding: 20px;
 }
