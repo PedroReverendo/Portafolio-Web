@@ -47,3 +47,8 @@ pagina responsive
 finalizacion de la mayoria de apis
 
 100% responsive.
+
+
+/*===== ENTREGA 6 =====*/
+
+Correcciones, optimizaciones y mejoras generales
